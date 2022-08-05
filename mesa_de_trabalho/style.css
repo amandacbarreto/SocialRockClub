@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+.l-ComoFunciona{
+    margin-bottom: 200px;
+}
+
+.l-CardsComoFunciona{
+    display: flex;
+    justify-content: center;
+}
+
+.texto-centralizado{
+    text-align: center;
+}
+
+.cartao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    gap: 30px;
+}
+
+.cartao__imagem{
+    width: 100px;
+}
+
+.cartao__corpo{
+    display: flex;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.l-CtaComoFunciona{
+    display: flex;
+    justify-content: center;
+}
+
+.botao{
+    border: solid gray 2px;
+    padding: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.l-ImagensAlbumSocialRock{
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.l-ImagensAlbumSocialRock img{
+    width: 48vw;
+}
